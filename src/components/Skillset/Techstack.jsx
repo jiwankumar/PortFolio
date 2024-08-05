@@ -4,12 +4,10 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiGit,
 } from "react-icons/di";
 import {
   SiMaterialui,
   SiGraphql,
-  SiSolidity,
   SiRedux,
   SiMongodb,
   SiHtml5
@@ -40,14 +38,9 @@ const Techstack = () => {
         <SiGraphql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiMaterialui />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
+      
     </Row>
   );
 }
